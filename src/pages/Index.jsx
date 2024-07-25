@@ -73,7 +73,7 @@ const Index = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <Button onClick={() => setIsModalOpen(true)} className="mb-4 bg-green-500 hover:bg-green-600 text-white">
+      <Button onClick={() => setIsModalOpen(true)} className="mb-4">
         Add New Task
       </Button>
 
